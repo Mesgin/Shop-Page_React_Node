@@ -8,7 +8,7 @@ class Home extends Component {
         <div className="container-fluid text-center">
           <form onSubmit={(e) => { this.props.submitHandler(e, this.textInput.value) }} action="/shop">
             <input className="form-control" type="text" placeholder="username" ref={(input) => this.textInput = input } />
-            <button className="btn btn-success" type="submit">Login</button>
+            <button className="btn btn-warning" type="submit">Login</button>
           </form>
         </div>
       </div>
